@@ -1,0 +1,42 @@
+.container{
+    border: solid 1px black;
+    padding: 10px;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: solid 1px black;
+    padding: 10px;
+}
+
+.row .question{
+    width: 250px;
+}
+.row .input {
+    width: 200px;
+}
+.row .answer{
+    width: 200px;
+}
+.options {
+    width: 200px;
+}
+.row .max-point{
+    width: 200px;
+}
+
+.row .grade{
+    width: 200px;
+}
+
+.button{
+    text-align: center;
+    margin-top:10px;
+}
