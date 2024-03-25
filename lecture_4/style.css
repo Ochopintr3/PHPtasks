@@ -1,0 +1,26 @@
+header, main{
+    border: solid 1px black;
+    min-height: 100px;
+    width: 700px;
+    margin: 10px auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+main{
+    min-height: 400px;
+}
+
+header div{
+    margin: 10px;
+}
+
+.err-mess{
+    color: red;
+}
+
+
+.d-list{
+    margin: 10px 0px;
+    border-bottom: 1px solid silver;
+}
