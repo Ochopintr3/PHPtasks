@@ -6,10 +6,6 @@
         if(isset($_POST["upload_file"])){
         }
 
-        // echo "<pre>";
-        // print_r(scandir("storage"));
-        // echo "</pre>";
-
         $storage = scandir("storage");
     ?>  
     <table>
