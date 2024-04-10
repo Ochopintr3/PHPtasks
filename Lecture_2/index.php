@@ -36,7 +36,7 @@
                 <div><?=$item['grade']?></div>
             </div>
             <?php 
-                    else: // If it's an open question
+                    else: 
             ?>
             <div class="row">
                 <div class="question">
