@@ -4,7 +4,6 @@
             include "rename.php";
         } 
         if(isset($_POST["upload_file"])){
-            // echo "Upload Clicked<hr>";
         }
 
         // echo "<pre>";
