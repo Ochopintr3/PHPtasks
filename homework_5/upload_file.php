@@ -16,10 +16,6 @@
 
      if(isset($_POST['rename'])){
        $old_patch = "storage/".$_GET['ren'];
-    //    echo "<pre>";
-    //    echo $old_patch;
-    //    print_r(pathinfo($old_patch));
-    //    echo "</pre>";
        $new_patch = 'storage/'.$_POST['new_name'].".".pathinfo($old_patch)['extension'];
        rename($old_patch, $new_patch);
        header("location: index.php");
