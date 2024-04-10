@@ -3,11 +3,6 @@
         if(isset($_GET['ren'])){
             include "rename.php";
         } 
-        //     echo "Something<hr>";
-        // }
-        // if($_SERVER['REQUEST_METHOD']=="POST"){
-        //     echo "Request Method<hr>";
-        // }
         if(isset($_POST["upload_file"])){
             // echo "Upload Clicked<hr>";
         }
