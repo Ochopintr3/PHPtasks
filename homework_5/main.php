@@ -3,7 +3,6 @@
         if(isset($_GET['ren'])){
             include "rename.php";
         } 
-        // print_r($_POST);
         // echo "</pre>";
         // if($_POST){
         //     echo "Something<hr>";
