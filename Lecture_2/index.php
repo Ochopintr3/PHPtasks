@@ -20,8 +20,8 @@
         <form action="grade.php" method="post">
             <?php 
                 foreach($questions as $key => $item):
-                    if(isset($item['options'])): // If it's a multiple-choice question
-                        shuffle($item['options']); // Shuffle options
+                    if(isset($item['options'])):
+                        shuffle($item['options']); 
             ?>
             <div class="row">
                 <div class="question">
